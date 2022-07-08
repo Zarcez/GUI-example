@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <RadioButton x:Name="dice6" Content="d6" HorizontalAlignment="Center" Margin="100,300,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Choose a dice and then press button to roll it"/>
+        <TextBlock x:Name ="diceRolls" HorizontalAlignment="Center" Margin="0,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text=""/>
+        <RadioButton x:Name="dice4" Content="d4" HorizontalAlignment="Center" Margin="-100,300,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <Button Content="Roll dice" HorizontalAlignment="Center" Margin="0,380,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <TextBlock x:Name ="numberDisplay" HorizontalAlignment="Center" Margin="0,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="100"/>
+
+    </Grid>
+</Window>
