@@ -12,7 +12,8 @@
         <TextBlock x:Name ="diceRolls" HorizontalAlignment="Center" Margin="0,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text=""/>
         <RadioButton x:Name="dice4" Content="d4" HorizontalAlignment="Center" Margin="-100,300,0,0" VerticalAlignment="Top" IsChecked="True"/>
         <Button Content="Roll dice" HorizontalAlignment="Center" Margin="0,380,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
-        <TextBlock x:Name ="numberDisplay" HorizontalAlignment="Center" Margin="0,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="100"/>
+        <TextBlock x:Name ="numberDisplay" HorizontalAlignment="Center" Margin="0,140,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="100"/>
+        <Polygon x:Name ="diceRec" Points="" HorizontalAlignment="Center" Height="180" Margin="0,100,0,0" Stroke="Black" VerticalAlignment="Top" Width="180"  Opacity="1.0"/>
 
     </Grid>
 </Window>
